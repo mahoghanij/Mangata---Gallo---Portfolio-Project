@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300;700&display=swap');
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+main {
+    margin-top: 30px;
+}
+
+/* Hero Image */
+#hero {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.194)), url("/Photos/AdobeStock_215805904.jpeg")no-repeat center/ cover;
+    color: #FFFFFF;
+}
+
+#hero-shop {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.194)), url("/Photos/AdobeStock_480715923.jpeg")no-repeat center / cover;
+    color: #FFFFFF;
+}
+
+#hero-services {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.094), rgba(0, 0, 0, 0.194)), url("/Photos/AdobeStock_480715923.jpeg")no-repeat center/ cover;
+    color: #FFFFFF;
+}
+
+#hero-about {
+    width: 100%;
+    height: 30rem;
+    background: linear-gradient(rgba(0, 0, 0, 0.404), rgba(0, 0, 0, 0.404)), url("/Photos/AdobeStock_377801849.jpeg")no-repeat center / cover;
+    color: #FFFFFF;
+}
+.hero-img {
+    width: 94%;
+    height: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    
+}
+
+.hero-img .hero-content h2 {
+  font-size: 3rem;  
+  margin-bottom: 1rem;
+}
+
+.hero-img .hero-content p {
+    font-size: 1.05rem;  
+    max-width: 98%;
+  }
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #00205B;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+li, a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #00205B;
+    text-decoration: none;
+    padding: 15px;
+
+}
+
+header {
+    display: flex;  
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    align-items: center;
+    padding: 20px 2%;
+    position: fixed;
+    top: 0%;
+  }
+  
+.logo {
+cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    padding: 8px 12px;
+}
+
+.nav_links li a:hover:not(:active) {
+    color: rgb(170, 204, 255);
+}
+
+.active {
+    color: rgb(170, 204, 255);
+}   
+
+@media screen and (max-width: 100%) {
+    body {font-size: 10px;}
+    header {float: none;}
+  }
+
+section {
+    display: flex;
+}
+
+article {
+        flex: 1;
+        padding: 15px;
+}
+
+
+#sub-content article {
+    transition: all 0.3s ease 0s;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 1em;
+
+}
+
+#sub-content article:hover {
+    box-sizing: border-box;
+    background-color: rgba(170, 204, 255, 0.3);
+    border-bottom: #ffd700 solid 2px;
+    border-top: #ffd700 solid 2px;
+    border-radius: 8px;
+    padding: 0.5em;
+    margin: 0.1em;
+
+}
+
+#sub-content article .gallery img{
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+
+
+/* Button CSS */
+button {
+    background-color: #00205B;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: rgb(170, 204, 255);
+    color: #00205B;
+}
+/* End Button CSS */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer div {
+    padding-top: 10%;
+    flex: 1;
+}
